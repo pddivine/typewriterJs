@@ -76,13 +76,11 @@ function typeWord(textId, word, speed, callback, letterInd = 0) {
 
 function typeLetter(textId, letter) {
   const root = document.getElementById(textId);
-
-  const frag = document.createDocumentFragment();
+  
   const elem = document.createElement('span');
   elem.textContent = letter;
 
-  frag.appendChild(elem);
-  root.appendChild(frag);
+  root.appendChild(elem);
 }
 
 function removeLetter(textId) {
