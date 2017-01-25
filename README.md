@@ -27,7 +27,7 @@ Then, in your JavaScript file boot up the typist.
 To style the type, simply style the container defined to hold the text.
 
 # API
-### tw.startTypist(containerId, contentArr[, speed]);
+### *tw*.startTypist(*containerId*, *contentArr[*, *speed]*);
 * containerId
   * The Id of the HTML container intended to be populated with the type.
 * contentArr
