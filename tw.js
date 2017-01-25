@@ -1,8 +1,15 @@
 (function (global, libName = 'tw') {
-  if (global[libName] !== undefined) { 
-    return console.log(`"${libName}" is already taken in the global name space.`)
-  }
-  return global[libName] = lib();
+  if (global.window === global) {
+    // Handle browser
+    if (global[libName] !== undefined) {
+      return console.log(`"${libName}" is already taken in the global name space.`)
+    }
+    global[libName] = lib();
+  } else {
+    // Handle commonJS
+    console.log('Common');
+    module.exports = lib();
+  }  
 })(this);
 
 function lib() {
