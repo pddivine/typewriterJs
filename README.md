@@ -21,7 +21,7 @@ Once the library is setup, create a HTML container with a unique Id that you int
 
 Then, in your JavaScript file boot up the typist.
 
-`tw.startTypist('typewriterId', ['Hi, I am the typist', 'Welcome!'];);`
+`tw.startTypist('typewriterId', ['Hi, I am the typist', 'Welcome!']);`
 
 ## Styling
 To style the type, simply style the container defined to hold the text.
