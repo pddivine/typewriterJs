@@ -1,2 +1,2 @@
-# TypewriterJs - Typing Simulation Javascript Module
-TW (typewriter) is a javascript module that simulates typing text.
+# typewriterJs - Typing Simulation Javascript Module
+typewriterJs is a javascript module that simulates typing text.
