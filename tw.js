@@ -2,10 +2,10 @@
   if (global[libName] !== undefined) { 
     return console.log(`"${libName}" is already taken in the global name space.`)
   }
-  return global[libName] = lib(libName);
+  return global[libName] = lib();
 })(this);
 
-function lib(libName) {
+function lib() {
   return {
     startTypist
   };
