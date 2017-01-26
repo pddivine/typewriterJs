@@ -1,0 +1,19 @@
+{
+  "name": "typewriterjs",
+  "version": "1.0.0",
+  "description": "A Javascript library for simulated typing of text.",
+  "main": "tw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pddivine/typewriterJs.git"
+  },
+  "author": "Patrick Divine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pddivine/typewriterJs/issues"
+  },
+  "homepage": "https://github.com/pddivine/typewriterJs#readme"
+}
