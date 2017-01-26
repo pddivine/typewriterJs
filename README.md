@@ -1,7 +1,7 @@
 # typewriterJs - Typing Simulation Javascript Module
 TypewriterJs is a javascript library that simulates typing text.
 
-<img src="https://dl.dropboxusercontent.com/u/22874695/typist_demo.gif ">
+[![typist_demo.gif](https://s23.postimg.org/jmsxr37fv/typist_demo.gif)](https://postimg.org/image/4e30dbdrb/)
 
 # Setup
 
